@@ -2,7 +2,7 @@
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url('../img/header-bg.jpg');
+  background-image: url('../img/hero.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -15,6 +15,7 @@ header.masthead {
       font-style: italic;
       line-height: 22px;
       margin-bottom: 25px;
+      background-color: rgba($color: black, $alpha: .4);
       @include serif-font;
     }
     .intro-heading {
@@ -22,6 +23,7 @@ header.masthead {
       font-weight: 700;
       line-height: 50px;
       margin-bottom: 25px;
+      background-color: rgba($color: black, $alpha: .4);
       @include heading-font;
     }
   }
